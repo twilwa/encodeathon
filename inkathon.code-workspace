@@ -2,26 +2,30 @@
   "folders": [
     {
       "name": "Project Root",
-      "path": "./",
+      "path": ".",
     },
     {
       "name": "Frontend",
-      "path": "./frontend",
+      "path": "frontend",
     },
     {
       "name": "Contracts",
-      "path": "./contracts",
+      "path": "contracts",
     },
     {
-      "path": "../commune",
+      "name": "gen-ui-demo",
+      "path": "../gen-ui-demo",
     },
     {
-      "path": "../../.commune",
+      "name": "hogchat",
+      "path": "../hogchat",
     },
     {
-      "path": "../Verba",
+      "name": "dot-bot",
+      "path": "../dot-bot",
     },
     {
+      "name": "talisman-connect-test-dapp",
       "path": "../talisman-connect-test-dapp",
     },
   ],
@@ -39,5 +43,6 @@
       "statusBarItem.remoteBackground": "#8758ff",
       "statusBarItem.remoteForeground": "#e7e7e7",
     },
+    "typescript.tsdk": "Project Root/node_modules/typescript/lib",
   },
 }

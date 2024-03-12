@@ -27,10 +27,10 @@ const StyledIconLink: React.FC<StyledIconLinkProps> = ({ className, children, ..
 )
 
 export const HomePageTitle: FC = () => {
-  const title = 'ink!athon'
-  const desc = 'Full-Stack DApp Boilerplate for ink! Smart Contracts'
-  const githubHref = 'https://github.com/scio-labs/inkathon'
-  const deployHref = 'https://github.com/scio-labs/inkathon#deployment-'
+  const title = 'ink!athon on the fly'
+  const desc = 'and this is to go EVEN FURTHER BEYOND'
+  const githubHref = 'https://github.com/twilwa/encodeathon'
+  const deployHref = 'https://github.com/twilwa/encodeathon#deployment-'
   const telegramHref = 'https://t.me/inkathon'
 
   return (
@@ -73,6 +73,14 @@ export const HomePageTitle: FC = () => {
             className="font-semibold text-gray-600 hover:text-gray-300"
           >
             Aleph Zero
+          </a>
+          . Modified by{' '}
+          <a
+            href="https://arena.x-ware.online"
+            target="_blank"
+            className="font-semibold text-gray-600 hover:text-gray-300"
+          >
+            yikesawjeez
           </a>
           .
         </p>
